@@ -28,4 +28,6 @@ cmake -DBUILD_TESTS=ON ..
 
 Then, run `make test` in the `build/` directory.
 
-## [Docs](https://sarahkittyy.github.io/logical)
+## Docs
+
+See docs [here.](https://sarahkittyy.github.io/logical)
