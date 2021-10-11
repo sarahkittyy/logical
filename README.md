@@ -1,4 +1,4 @@
-# logical
+# logical ![](https://img.shields.io/github/workflow/status/sarahkittyy/logical/CMake)
 
 Library to create and simulate logic gates and circuits.
 
