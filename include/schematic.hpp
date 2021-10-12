@@ -46,6 +46,11 @@ public:
 	 */
 	void clear();
 
+	/**
+	 * @return the amount of nodes in the schematic
+	 */
+	int count() const;
+
 	//// -- CIRCUIT METHODS -- ////
 
 	/**

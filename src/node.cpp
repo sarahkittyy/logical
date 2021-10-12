@@ -103,7 +103,7 @@ std::vector<bool> node::test(std::vector<bool> in) const {
 	m_testing	 = true;
 	m_test_input = in;
 
-	for (int i = 0; i < inputs(); ++i) {
+	for (int i = 0; i < outputs(); ++i) {
 		out[i] = compute(i);
 	}
 

@@ -33,6 +33,10 @@ void schematic::clear() {
 	m_nodes.clear();
 }
 
+int schematic::count() const {
+	return m_nodes.size();
+}
+
 int schematic::circuit_in_count() const {
 	return std::count_if(m_nodes.cbegin(), m_nodes.cend(), std::mem_fn(&node::is_circuit_in));
 }
