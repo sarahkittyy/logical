@@ -1,6 +1,6 @@
 #include "gates/nand.hpp"
 
-namespace gates {
+namespace lg::gates {
 
 NAND::NAND()
 	: node(2, 1) {

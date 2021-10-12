@@ -2,7 +2,7 @@
 
 #include <stdexcept>
 
-namespace gates {
+namespace lg::gates {
 
 OUT::OUT()
 	: node(1, 1) {

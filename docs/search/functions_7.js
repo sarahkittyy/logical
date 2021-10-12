@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['mark_5fresolved_0',['mark_resolved',['../classnode.html#aabd4045f72b3e945141835d18f7a443b',1,'node']]],
-  ['mark_5funresolved_1',['mark_unresolved',['../classcircuit.html#ac55539133e5a80668e58a206529a8a1f',1,'circuit::mark_unresolved()'],['../classnode.html#ae7b69773094367f91290321375b4f2bd',1,'node::mark_unresolved()']]]
+  ['mark_5fresolved_0',['mark_resolved',['../classlg_1_1node.html#ac0d1b9401c917fe9cb1f470f1bc32043',1,'lg::node']]],
+  ['mark_5funresolved_1',['mark_unresolved',['../classlg_1_1circuit.html#a87423b9e8c050db7217ab41ef45e79c8',1,'lg::circuit::mark_unresolved()'],['../classlg_1_1node.html#affbdd74f82604acb0d572dc678faa547',1,'lg::node::mark_unresolved()']]]
 ];

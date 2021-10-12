@@ -2,6 +2,8 @@
 
 #include <node.hpp>
 
+namespace lg {
+
 class circuit;
 
 namespace gates {
@@ -22,5 +24,7 @@ public:
 	using node::m_test_input;
 	using node::m_testing;
 };
+
+}
 
 }

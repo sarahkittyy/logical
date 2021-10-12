@@ -8,7 +8,7 @@
 #include <node.hpp>
 #include <schematic.hpp>
 
-namespace util {
+namespace lg::util {
 
 /**
  * @brief create schematics without having to manage node memory manually

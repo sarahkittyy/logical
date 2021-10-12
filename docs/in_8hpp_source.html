@@ -90,32 +90,35 @@ $(document).ready(function(){initNavTree('in_8hpp_source.html',''); initResizabl
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="preprocessor">#include &lt;node.hpp&gt;</span></div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">class </span><a class="code hl_class" href="classcircuit.html">circuit</a>;</div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span>lg {</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">namespace </span>gates {</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span><span class="keyword">class </span>circuit;</div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span> </div>
-<div class="line"><a id="l00012" name="l00012"></a><span class="lineno"><a class="line" href="classgates_1_1_i_n.html">   12</a></span><span class="keyword">class </span><a class="code hl_class" href="classgates_1_1_i_n.html">IN</a> : <span class="keyword">public</span> <a class="code hl_class" href="classnode.html">node</a> {</div>
-<div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span><span class="keyword">public</span>:</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno">   14</span>    <a class="code hl_class" href="classgates_1_1_i_n.html">IN</a>();</div>
-<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classgates_1_1_i_n.html#a9af6f5d6375a34ccdd64015587196e7c">is_circuit_in</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span><span class="keyword">namespace </span>gates {</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classlg_1_1gates_1_1_i_n.html">   14</a></span><span class="keyword">class </span><a class="code hl_class" href="classlg_1_1gates_1_1_i_n.html">IN</a> : <span class="keyword">public</span> <a class="code hl_class" href="classlg_1_1node.html">node</a> {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span><span class="keyword">public</span>:</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span>    <a class="code hl_class" href="classlg_1_1gates_1_1_i_n.html">IN</a>();</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classgates_1_1_i_n.html#ab5222b52327e3d080390691a61ff1b51">compute</a>(<span class="keywordtype">int</span> gate) <span class="keyword">const</span>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classlg_1_1gates_1_1_i_n.html#aeadc81425c0300fe86ec98f9aa1a8822">is_circuit_in</a>() <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span> </div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keyword">using</span> <a class="code hl_function" href="classnode.html#a7cbf39cffbbc676cac041e52ff80f597">node::set_input_wire</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>    <span class="keywordtype">bool</span> <a class="code hl_function" href="classlg_1_1gates_1_1_i_n.html#aede97c1eb0148c689efd0517ab0e740a">compute</a>(<span class="keywordtype">int</span> gate) <span class="keyword">const</span>;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span> </div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">using</span> <a class="code hl_variable" href="classnode.html#ad87289d4aff5859380e44f2e38732ce2">node::m_test_input</a>;</div>
-<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>    <span class="keyword">using</span> node::m_testing;</div>
-<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>};</div>
-<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>}</div>
-<div class="ttc" id="aclasscircuit_html"><div class="ttname"><a href="classcircuit.html">circuit</a></div><div class="ttdoc">a collection of gates, abstracted into a single node with inputs and outputs</div><div class="ttdef"><b>Definition:</b> circuit.hpp:11</div></div>
-<div class="ttc" id="aclassgates_1_1_i_n_html"><div class="ttname"><a href="classgates_1_1_i_n.html">gates::IN</a></div><div class="ttdoc">abstract gate used only in schematics to denote a circuit input</div><div class="ttdef"><b>Definition:</b> in.hpp:12</div></div>
-<div class="ttc" id="aclassgates_1_1_i_n_html_a9af6f5d6375a34ccdd64015587196e7c"><div class="ttname"><a href="classgates_1_1_i_n.html#a9af6f5d6375a34ccdd64015587196e7c">gates::IN::is_circuit_in</a></div><div class="ttdeci">bool is_circuit_in() const</div><div class="ttdoc">used in gates::IN to mark this node as an abstract input</div><div class="ttdef"><b>Definition:</b> in.cpp:11</div></div>
-<div class="ttc" id="aclassgates_1_1_i_n_html_ab5222b52327e3d080390691a61ff1b51"><div class="ttname"><a href="classgates_1_1_i_n.html#ab5222b52327e3d080390691a61ff1b51">gates::IN::compute</a></div><div class="ttdeci">bool compute(int gate) const</div><div class="ttdoc">compute the result at the given output gate</div><div class="ttdef"><b>Definition:</b> in.cpp:15</div></div>
-<div class="ttc" id="aclassnode_html"><div class="ttname"><a href="classnode.html">node</a></div><div class="ttdoc">base node for all gates / circuits</div><div class="ttdef"><b>Definition:</b> node.hpp:11</div></div>
-<div class="ttc" id="aclassnode_html_a7cbf39cffbbc676cac041e52ff80f597"><div class="ttname"><a href="classnode.html#a7cbf39cffbbc676cac041e52ff80f597">node::set_input_wire</a></div><div class="ttdeci">void set_input_wire(int gate, wire w)</div><div class="ttdoc">directly copy the given wire into the gate</div><div class="ttdef"><b>Definition:</b> node.cpp:174</div></div>
-<div class="ttc" id="aclassnode_html_ad87289d4aff5859380e44f2e38732ce2"><div class="ttname"><a href="classnode.html#ad87289d4aff5859380e44f2e38732ce2">node::m_test_input</a></div><div class="ttdeci">std::vector&lt; bool &gt; m_test_input</div><div class="ttdoc">true during the test() method</div><div class="ttdef"><b>Definition:</b> node.hpp:187</div></div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    <span class="keyword">using</span> <a class="code hl_function" href="classlg_1_1node.html#a67986b8507ca95808dc03be698b86a38">node::set_input_wire</a>;</div>
+<div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span> </div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno">   24</span>    <span class="keyword">using</span> <a class="code hl_variable" href="classlg_1_1node.html#af5624574356b678199bcba9d418f6114">node::m_test_input</a>;</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span>    <span class="keyword">using</span> node::m_testing;</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>};</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span> </div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span>}</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span> </div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span>}</div>
+<div class="ttc" id="aclasslg_1_1gates_1_1_i_n_html"><div class="ttname"><a href="classlg_1_1gates_1_1_i_n.html">lg::gates::IN</a></div><div class="ttdoc">abstract gate used only in schematics to denote a circuit input</div><div class="ttdef"><b>Definition:</b> in.hpp:14</div></div>
+<div class="ttc" id="aclasslg_1_1gates_1_1_i_n_html_aeadc81425c0300fe86ec98f9aa1a8822"><div class="ttname"><a href="classlg_1_1gates_1_1_i_n.html#aeadc81425c0300fe86ec98f9aa1a8822">lg::gates::IN::is_circuit_in</a></div><div class="ttdeci">bool is_circuit_in() const</div><div class="ttdoc">used in gates::IN to mark this node as an abstract input</div><div class="ttdef"><b>Definition:</b> in.cpp:11</div></div>
+<div class="ttc" id="aclasslg_1_1gates_1_1_i_n_html_aede97c1eb0148c689efd0517ab0e740a"><div class="ttname"><a href="classlg_1_1gates_1_1_i_n.html#aede97c1eb0148c689efd0517ab0e740a">lg::gates::IN::compute</a></div><div class="ttdeci">bool compute(int gate) const</div><div class="ttdoc">compute the result at the given output gate</div><div class="ttdef"><b>Definition:</b> in.cpp:15</div></div>
+<div class="ttc" id="aclasslg_1_1node_html"><div class="ttname"><a href="classlg_1_1node.html">lg::node</a></div><div class="ttdoc">base node for all gates / circuits</div><div class="ttdef"><b>Definition:</b> node.hpp:13</div></div>
+<div class="ttc" id="aclasslg_1_1node_html_a67986b8507ca95808dc03be698b86a38"><div class="ttname"><a href="classlg_1_1node.html#a67986b8507ca95808dc03be698b86a38">lg::node::set_input_wire</a></div><div class="ttdeci">void set_input_wire(int gate, wire w)</div><div class="ttdoc">directly copy the given wire into the gate</div><div class="ttdef"><b>Definition:</b> node.cpp:176</div></div>
+<div class="ttc" id="aclasslg_1_1node_html_af5624574356b678199bcba9d418f6114"><div class="ttname"><a href="classlg_1_1node.html#af5624574356b678199bcba9d418f6114">lg::node::m_test_input</a></div><div class="ttdeci">std::vector&lt; bool &gt; m_test_input</div><div class="ttdoc">true during the test() method</div><div class="ttdef"><b>Definition:</b> node.hpp:189</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->

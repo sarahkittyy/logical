@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['m_5ftest_5finput_0',['m_test_input',['../classnode.html#ad87289d4aff5859380e44f2e38732ce2',1,'node::m_test_input()'],['../classgates_1_1_i_n.html#ad87289d4aff5859380e44f2e38732ce2',1,'gates::IN::m_test_input()']]],
-  ['mark_5fresolved_1',['mark_resolved',['../classnode.html#aabd4045f72b3e945141835d18f7a443b',1,'node']]],
-  ['mark_5funresolved_2',['mark_unresolved',['../classcircuit.html#ac55539133e5a80668e58a206529a8a1f',1,'circuit::mark_unresolved()'],['../classnode.html#ae7b69773094367f91290321375b4f2bd',1,'node::mark_unresolved()']]]
+  ['m_5ftest_5finput_0',['m_test_input',['../classlg_1_1node.html#af5624574356b678199bcba9d418f6114',1,'lg::node::m_test_input()'],['../classlg_1_1gates_1_1_i_n.html#af5624574356b678199bcba9d418f6114',1,'lg::gates::IN::m_test_input()']]],
+  ['mark_5fresolved_1',['mark_resolved',['../classlg_1_1node.html#ac0d1b9401c917fe9cb1f470f1bc32043',1,'lg::node']]],
+  ['mark_5funresolved_2',['mark_unresolved',['../classlg_1_1circuit.html#a87423b9e8c050db7217ab41ef45e79c8',1,'lg::circuit::mark_unresolved()'],['../classlg_1_1node.html#affbdd74f82604acb0d572dc678faa547',1,'lg::node::mark_unresolved()']]]
 ];

@@ -1,5 +1,7 @@
 #include "wire.hpp"
 
+namespace lg {
+
 wire::wire()
 	: to(nullptr),
 	  gate(0),
@@ -8,4 +10,6 @@ wire::wire()
 
 bool wire::empty() const {
 	return to == nullptr;
+}
+
 }

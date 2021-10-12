@@ -1,6 +1,6 @@
 #include "gates/nor.hpp"
 
-namespace gates {
+namespace lg::gates {
 
 NOR::NOR()
 	: node(2, 1) {

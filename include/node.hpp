@@ -5,6 +5,8 @@
 
 #include <wire.hpp>
 
+namespace lg {
+
 /**
  * @brief base node for all gates / circuits
  */
@@ -197,4 +199,7 @@ private:
 	std::vector<std::vector<wire>> m_outputs;	/// pointers to all node outputs
 };
 
-std::ostream& operator<<(std::ostream& os, const node& n);
+}
+
+std::ostream& operator<<(std::ostream& os, const lg::node& n);
+

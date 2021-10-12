@@ -1,6 +1,6 @@
 #include "gates/xnor.hpp"
 
-namespace gates {
+namespace lg::gates {
 
 XNOR::XNOR()
 	: node(2, 1) {

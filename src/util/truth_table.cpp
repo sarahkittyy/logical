@@ -4,7 +4,7 @@
 #include <cmath>
 #include <iomanip>
 
-namespace util {
+namespace lg::util {
 
 truth_table gen_truth_table(const node& n) {
 	truth_table table;
@@ -58,7 +58,7 @@ static std::ostream& operator<<(std::ostream& os, const std::vector<bool>& b) {
 	return os;
 }
 
-std::ostream& operator<<(std::ostream& os, const util::truth_table& table) {
+std::ostream& operator<<(std::ostream& os, const lg::util::truth_table& table) {
 	const int input_size  = table.begin()->first.size();
 	const int output_size = table.begin()->second.size();
 	const int table_width = 1 + input_size + 1 + output_size + 1;

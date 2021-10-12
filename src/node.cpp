@@ -4,6 +4,8 @@
 #include <functional>
 #include <stdexcept>
 
+namespace lg {
+
 node::node(int i, int o)
 	: m_testing(false),
 	  m_input_ct(i),
@@ -207,7 +209,9 @@ bool node::input(int gate) const {
 	return n.result(l.gate);
 }
 
-std::ostream& operator<<(std::ostream& os, const node& n) {
+}
+
+std::ostream& operator<<(std::ostream& os, const lg::node& n) {
 	os << n.inputs() << "i" << n.outputs() << "o";
 	if (!n.is_resolved()) {
 		os << "{unresolved}";

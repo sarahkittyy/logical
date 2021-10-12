@@ -1,6 +1,6 @@
 #include "gates/and.hpp"
 
-namespace gates {
+namespace lg::gates {
 
 AND::AND()
 	: node(2, 1) {

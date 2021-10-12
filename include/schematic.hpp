@@ -6,6 +6,8 @@
 #include <gates/out.hpp>
 #include <node.hpp>
 
+namespace lg {
+
 /**
  * @brief a collection of nodes
  */
@@ -80,3 +82,5 @@ public:
 private:
 	std::vector<node*> m_nodes;	  /// all nodes in the schematic
 };
+
+}

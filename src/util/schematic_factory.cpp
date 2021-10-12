@@ -2,7 +2,7 @@
 
 #include <stdexcept>
 
-namespace util {
+namespace lg::util {
 
 std::shared_ptr<circuit> schematic_factory::add(std::string name, const schematic_factory& fac) {
 	if (m_factories.contains(name)) {

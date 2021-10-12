@@ -2,7 +2,7 @@
 
 #include <node.hpp>
 
-namespace gates {
+namespace lg::gates {
 
 class OR : public node {
 public:

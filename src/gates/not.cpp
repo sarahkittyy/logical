@@ -1,6 +1,6 @@
 #include "gates/not.hpp"
 
-namespace gates {
+namespace lg::gates {
 
 NOT::NOT()
 	: node(1, 1) {

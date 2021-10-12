@@ -1,6 +1,6 @@
 #include "gates/or.hpp"
 
-namespace gates {
+namespace lg::gates {
 
 OR::OR()
 	: node(2, 1) {

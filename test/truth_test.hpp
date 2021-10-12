@@ -3,6 +3,8 @@
 #include <catch2/catch.hpp>
 #include <logical.hpp>
 
+using namespace lg;
+
 /**
  * @brief compare two truth tables
  *

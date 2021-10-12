@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['add_0',['add',['../classschematic.html#a7da341ec37fe359a54056abb159b14c1',1,'schematic::add()'],['../classutil_1_1schematic__factory.html#a1e70d5e3474d199b540e5f36db303526',1,'util::schematic_factory::add(std::string name, Args... args)'],['../classutil_1_1schematic__factory.html#a73201cfa6d8f0ed290c0464e4440186e',1,'util::schematic_factory::add(std::string name, const schematic_factory &amp;fac)']]],
-  ['add_5finputs_1',['add_inputs',['../classutil_1_1schematic__factory.html#a4255b325f498ee4bd74dcf9f87a8a525',1,'util::schematic_factory']]],
-  ['add_5foutputs_2',['add_outputs',['../classutil_1_1schematic__factory.html#af98b655bfbca0d7992987c15f99bcc47',1,'util::schematic_factory']]]
+  ['add_0',['add',['../classlg_1_1schematic.html#a9345a744ac1c9dafa9e45a53875ada39',1,'lg::schematic::add()'],['../classlg_1_1util_1_1schematic__factory.html#a3921399dfb5c557cdfd27ddf42946265',1,'lg::util::schematic_factory::add(std::string name, Args... args)'],['../classlg_1_1util_1_1schematic__factory.html#a92a6996734ed57ce6ab99bd6362e312f',1,'lg::util::schematic_factory::add(std::string name, const schematic_factory &amp;fac)']]],
+  ['add_5finputs_1',['add_inputs',['../classlg_1_1util_1_1schematic__factory.html#aff50c3a34090bc2c3b65ed49c15c75bd',1,'lg::util::schematic_factory']]],
+  ['add_5foutputs_2',['add_outputs',['../classlg_1_1util_1_1schematic__factory.html#a00adf48fc138d7cef28ad435b69ae0c2',1,'lg::util::schematic_factory']]]
 ];

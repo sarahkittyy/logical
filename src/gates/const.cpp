@@ -1,6 +1,6 @@
 #include "gates/const.hpp"
 
-namespace gates {
+namespace lg::gates {
 
 CONST::CONST(bool value)
 	: node(0, 1),

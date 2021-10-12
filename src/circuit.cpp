@@ -2,6 +2,8 @@
 
 #include <stdexcept>
 
+namespace lg {
+
 circuit::circuit(schematic* schem)
 	: node(schem->circuit_in_count(), schem->circuit_out_count()),
 	  m_schem(schem) {
@@ -85,4 +87,6 @@ std::vector<bool> circuit::test(std::vector<bool> input) const {
 	}
 
 	return out;
+}
+
 }

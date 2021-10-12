@@ -2,7 +2,7 @@
 
 #include <node.hpp>
 
-namespace gates {
+namespace lg::gates {
 
 class XNOR : public node {
 public:

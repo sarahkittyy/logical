@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['input_0',['input',['../classnode.html#afcebe20375a49403e269a622ec3de48f',1,'node']]],
-  ['inputs_1',['inputs',['../classnode.html#a837765ed56d47d5a7daa0c0b01e1485f',1,'node']]],
-  ['is_5fcircuit_5fin_2',['is_circuit_in',['../classgates_1_1_i_n.html#a9af6f5d6375a34ccdd64015587196e7c',1,'gates::IN::is_circuit_in()'],['../classnode.html#a50dc38f4060242dbc0da9031ea25d72e',1,'node::is_circuit_in()']]],
-  ['is_5fcircuit_5fout_3',['is_circuit_out',['../classgates_1_1_o_u_t.html#aeb2d17f4b358ad0660fecb6297665536',1,'gates::OUT::is_circuit_out()'],['../classnode.html#a1eb9ab252ac6f5a482f71d4b0b5c4300',1,'node::is_circuit_out() const']]],
-  ['is_5fcomplete_4',['is_complete',['../classnode.html#a90ea52b26f065f57efea528d0ca4436e',1,'node::is_complete()'],['../classschematic.html#a7b62c9027c4460901b463fcd6c5ec85e',1,'schematic::is_complete()']]],
-  ['is_5fresolved_5',['is_resolved',['../classcircuit.html#a5ad044824fa5720fee141dc09d4b7fa4',1,'circuit::is_resolved()'],['../classnode.html#a6ad8448e318183ec3f888118533cfc58',1,'node::is_resolved()']]]
+  ['input_0',['input',['../classlg_1_1node.html#a61b97a8ec574d354a586af9ed19ac334',1,'lg::node']]],
+  ['inputs_1',['inputs',['../classlg_1_1node.html#ae2ea5fc1234a6cd34596cb149e256f88',1,'lg::node']]],
+  ['is_5fcircuit_5fin_2',['is_circuit_in',['../classlg_1_1gates_1_1_i_n.html#aeadc81425c0300fe86ec98f9aa1a8822',1,'lg::gates::IN::is_circuit_in()'],['../classlg_1_1node.html#ad349ac9fedfa49429c634586ca71b72f',1,'lg::node::is_circuit_in()']]],
+  ['is_5fcircuit_5fout_3',['is_circuit_out',['../classlg_1_1gates_1_1_o_u_t.html#a8104de75b309e8f825b47ac7527350a1',1,'lg::gates::OUT::is_circuit_out()'],['../classlg_1_1node.html#a85bef0b7c879ad0e2ce99f8e9a48c36f',1,'lg::node::is_circuit_out() const']]],
+  ['is_5fcomplete_4',['is_complete',['../classlg_1_1node.html#ab1852868a59deef4103b0b8c8ab547d2',1,'lg::node::is_complete()'],['../classlg_1_1schematic.html#a99152b60b773850d3fe2e37c72c162d5',1,'lg::schematic::is_complete()']]],
+  ['is_5fresolved_5',['is_resolved',['../classlg_1_1circuit.html#ad0faaa17a26dc4d30ef51b3ca59ad640',1,'lg::circuit::is_resolved()'],['../classlg_1_1node.html#a005ed38ce8f199db9c54e6c8b0424d76',1,'lg::node::is_resolved()']]]
 ];

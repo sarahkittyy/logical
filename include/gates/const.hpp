@@ -2,7 +2,7 @@
 
 #include <node.hpp>
 
-namespace gates {
+namespace lg::gates {
 
 /**
  * @brief gate that is always resolved, has no inputs, and returns a constant signal

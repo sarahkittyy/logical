@@ -6,7 +6,7 @@
 
 #include <node.hpp>
 
-namespace util {
+namespace lg::util {
 
 /// a table mapping all possible inputs to a node, to each output
 typedef std::map<std::vector<bool>, std::vector<bool>> truth_table;
@@ -42,4 +42,4 @@ truth_table gen_truth_table(const node& n, std::string input);
 /**
  * @brief outputs a truth table in a human-readable format
  */
-std::ostream& operator<<(std::ostream& os, const util::truth_table& table);
+std::ostream& operator<<(std::ostream& os, const lg::util::truth_table& table);

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['node_0',['node',['../classnode.html#a6aec322434ee08346cb57aec9e159f8f',1,'node']]]
+  ['node_0',['node',['../classlg_1_1node.html#aae4104072ed9441e19e89233b49b28ff',1,'lg::node']]]
 ];

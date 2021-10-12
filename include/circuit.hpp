@@ -5,6 +5,8 @@
 #include <node.hpp>
 #include <schematic.hpp>
 
+namespace lg {
+
 /**
  * @brief a collection of gates, abstracted into a single node with inputs and outputs
  */
@@ -57,3 +59,5 @@ public:
 private:
 	schematic* m_schem;	  /// internal schematic holding the composing circuits
 };
+
+}

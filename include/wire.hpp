@@ -1,5 +1,7 @@
 #pragma once
 
+namespace lg {
+
 class node;
 
 /**
@@ -17,3 +19,5 @@ struct wire {
 	 */
 	bool empty() const;
 };
+
+}

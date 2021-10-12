@@ -3,6 +3,8 @@
 
 #include "truth_test.hpp"
 
+using namespace lg;
+
 TEST_CASE("testing schematics and ticking", "[schematic]") {
 	schematic ss;
 

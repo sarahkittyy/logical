@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['wire_0',['wire',['../structwire.html',1,'']]]
+  ['wire_0',['wire',['../structlg_1_1wire.html',1,'lg']]]
 ];

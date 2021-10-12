@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['schematic_0',['schematic',['../classschematic.html',1,'']]],
-  ['schematic_5ffactory_1',['schematic_factory',['../classutil_1_1schematic__factory.html',1,'util']]]
+  ['schematic_0',['schematic',['../classlg_1_1schematic.html',1,'lg']]],
+  ['schematic_5ffactory_1',['schematic_factory',['../classlg_1_1util_1_1schematic__factory.html',1,'lg::util']]]
 ];

@@ -3,6 +3,8 @@
 
 #include "truth_test.hpp"
 
+using namespace lg;
+
 TEST_CASE("basic logic gates", "[node]") {
 	SECTION("const") {
 		gates::CONST o(true);

@@ -1,6 +1,6 @@
 #include "gates/xor.hpp"
 
-namespace gates {
+namespace lg::gates {
 
 XOR::XOR()
 	: node(2, 1) {

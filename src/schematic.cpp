@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <functional>
 
+namespace lg {
+
 schematic::schematic() {
 }
 
@@ -79,4 +81,6 @@ gates::OUT* schematic::get_circuit_out(int gate) {
 		throw std::out_of_range("IN gate number out of bounds.");
 	}
 	return dynamic_cast<gates::OUT*>(*item);
+}
+
 }

@@ -6,6 +6,8 @@
 
 #include "truth_test.hpp"
 
+using namespace lg;
+
 util::schematic_factory mk_half_adder() {
 	util::schematic_factory ha;
 

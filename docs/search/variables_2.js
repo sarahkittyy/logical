@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['oti_0',['oti',['../structwire.html#ab66cef5a63abc58e34415399f472f46b',1,'wire']]]
+  ['oti_0',['oti',['../structlg_1_1wire.html#a2f5a689e7b6d0f0aae4636d9257e4196',1,'lg::wire']]]
 ];

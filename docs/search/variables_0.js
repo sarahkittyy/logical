@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['gate_0',['gate',['../structwire.html#a11157df904acb12b8d85afc7c54d6b9a',1,'wire']]]
+  ['gate_0',['gate',['../structlg_1_1wire.html#ac117b047293212fabafb1842fd3ef54a',1,'lg::wire']]]
 ];
